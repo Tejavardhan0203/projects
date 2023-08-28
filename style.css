@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ }
+
+ body{
+    font-family:"Nunito",sans-serif;
+ }
+ .container{
+    margin: 100px auto;
+    width: 28%;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+ }
+ form label{
+    font:bold;
+ }
+ form input{
+    margin: 10px 0;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color:antiquewhite;
+ }
+ form a{
+    text-decoration: none;
+ }
+ form a :hover{
+    color: chartreuse;
+ }
+ form button{
+    margin: 10px 0;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 4px;
+ }
+ form button :hover{
+    cursor: pointer;
+    box-shadow: 5px 10px #888888;
+    transform: translateY(-3px);
+ }
+
+ .footer .images{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+ }
+
+ .footer .images img{
+    width: 9%;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #eee;
+ }
+ .footer a{
+    float:none;
+    margin:30px 0;
+    padding: 55px;
+  }
